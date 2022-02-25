@@ -1,0 +1,8 @@
+@mixin buttonStyle {
+    color: red
+}
+
+
+button {
+    @include buttonStyle()
+}
