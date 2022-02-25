@@ -1,7 +1,7 @@
 import React from "react";
 import "./brand.css";
 
-const Brand = () => {
+const Brand: React.FC = () => {
   return <div>Brand</div>;
 };
 

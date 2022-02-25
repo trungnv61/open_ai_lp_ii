@@ -1,6 +1,6 @@
 import React from "react";
 import "./cta.css";
-const Cta = () => {
+const Cta: React.FC = () => {
   return <div>Cta</div>;
 };
 

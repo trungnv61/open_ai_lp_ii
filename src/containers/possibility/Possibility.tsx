@@ -1,6 +1,6 @@
 import React from "react";
 import "./possibility.css";
-const Possibility = () => {
+const Possibility: React.FC = () => {
   return <div>Possibility</div>;
 };
 

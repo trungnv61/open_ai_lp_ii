@@ -1,6 +1,6 @@
 import React from "react";
 import "./features.css";
-const Features = () => {
+const Features: React.FC = () => {
   return <div>Features</div>;
 };
 
