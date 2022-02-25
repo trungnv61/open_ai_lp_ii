@@ -1,10 +1,6 @@
 import React from "react";
 import "./App.css";
-import Article from "./components/article/Article";
-import Brand from "./components/brand/Brand";
-import Cta from "./components/cta/Cta";
-import Feature from "./components/feature/Feature";
-import Navbar from "./components/navbar/Navbar";
+import { Article, Brand, Cta, Feature, Navbar } from "./components";
 
 const App: React.FC = () => {
   return (
