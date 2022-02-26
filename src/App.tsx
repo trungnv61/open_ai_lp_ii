@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import { Article, Brand, Cta, Feature, Navbar } from "./components";
+import { Brand, Cta, Navbar } from "./components";
 import {
   Blog,
   Features,
@@ -13,8 +13,17 @@ import {
 const App: React.FC = () => {
   return (
     <div className="app">
-      <div className="gradient__bg"></div>
-      <Navbar />
+      <div className="gradient__bg">
+        <Navbar />
+        <Header />
+      </div>
+      <Brand />
+      <WhatGPT3 />
+      <Features />
+      <Possibility />
+      <Cta />
+      <Blog />
+      <Footer />
     </div>
   );
 };
