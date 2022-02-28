@@ -28,6 +28,10 @@ const Navbar: React.FC = () => {
           </p>
         </div>
       </div>
+      <div className="gpt3__navbar-sign">
+        <p>Sign in</p>
+        <button type="button">Sign up</button>
+      </div>
     </div>
   );
 };
