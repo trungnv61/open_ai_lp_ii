@@ -4,7 +4,7 @@ import logo from "../../assets/logo.svg";
 import { MenuSwitch } from "..//typescript/interface";
 import "./navbar.css";
 
-const Menu: any = () => {
+const Menu = () => (
   <>
     <p>
       <a href="#home">Home</a>
@@ -21,8 +21,8 @@ const Menu: any = () => {
     <p>
       <a href="#home">Library</a>
     </p>
-  </>;
-};
+  </>
+);
 
 const Navbar: React.FC = () => {
   const [toggleMenu, setToogleMenu] = useState(false);
