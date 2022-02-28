@@ -55,12 +55,19 @@
 
 
 @mixin styleBtn_sign_menu {
-  width: 152px;
-  height: 58px;
+  padding: 0.5rem 1rem;
+  color: #fff;
   left: 1153px;
   top: 55px;
   background: #ff4820;
   border-radius: 5px;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  border: 0;
+  outline: none;
+  cursor: pointer;
 }
 
 
