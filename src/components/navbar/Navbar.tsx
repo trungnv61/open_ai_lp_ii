@@ -59,6 +59,10 @@ const Navbar: React.FC = () => {
           <div className="gpt3__navbar-menu_container scale-up-center">
             <div className="gpt3__navbar-menu_container-links">
               <Menu />
+              <div className="gpt3__navbar-menu">
+                <p>Sign in</p>
+                <button type="button">Sign up</button>
+              </div>
             </div>
           </div>
         )}
