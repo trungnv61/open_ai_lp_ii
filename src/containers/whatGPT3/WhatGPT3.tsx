@@ -12,6 +12,7 @@ const WhatGPT3: React.FC = () => {
         <h1 className="gradient-text">
           The possibilities are beyond your imagination
         </h1>
+        <p>Explorer the library</p>
       </div>
     </div>
   );
