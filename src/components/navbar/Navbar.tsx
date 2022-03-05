@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 import logo from "../../assets/logo.svg";
-import { MenuSwitch } from "..//typescript/interface";
 import "./navbar.css";
 
 const Navbar: React.FC = () => {

@@ -1,9 +1,8 @@
 import React from "react";
 import Feature from "../../components/feature/Feature";
 import "./whatGPT3.css";
-import { FeatureProps } from "../../../src/typescript/interface";
 
-const WhatGPT3: React.FC<FeatureProps> = ({ title }): JSX.Element => (
+const WhatGPT3 = () => (
   <div className="gpt3__whatgpt3 section__margin" id="wgpt3">
     <div className="gpt3__whatgpt3-feature">
       <Feature
