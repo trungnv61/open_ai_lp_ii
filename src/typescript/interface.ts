@@ -4,5 +4,6 @@ export interface MenuSwitch {
 }
 
 export interface FeatureProps {
-  title: any;
+  title: string;
+  text: string;
 }
