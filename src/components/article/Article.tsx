@@ -1,14 +1,12 @@
 import React from "react";
-import from '../../assets/'
+import { PropsImg } from "../../typescript/interface";
 
-
-const Article: React.FC = ({imgUrl}) => {
+const Article: React.FC<PropsImg> = ({ imgUrl }) => {
   return (
     <div className="gpt3__blog-container__article">
-      Article
       <div className="gpt3__blog-container__article-image">
         <img src={imgUrl} alt="blogImage" />
-        </div>
+      </div>
     </div>
   );
 };

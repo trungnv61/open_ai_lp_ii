@@ -1,7 +1,7 @@
 import React from "react";
 import { Article } from "../../components";
+import { blog1, blog2, blog3, blog4, blog5 } from "./imports";
 import "./blog.css";
-import from '../../asse'
 
 const Blog: React.FC = () => {
   return (
@@ -12,13 +12,13 @@ const Blog: React.FC = () => {
         </h1>
         <div className="gpt3__blog-container">
           <div className="gpt3__blog-container_groupA">
-            <Article />
+            <Article imgUrl={blog1} />
           </div>
           <div className="gpt3__blog-container_groupB">
-            <Article />
-            <Article />
-            <Article />
-            <Article />
+            <Article imgUrl={blog2} />
+            <Article imgUrl={blog3} />
+            <Article imgUrl={blog4} />
+            <Article imgUrl={blog5} />
           </div>
         </div>
       </div>
