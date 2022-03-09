@@ -10,4 +10,6 @@ export interface FeatureProps {
 
 export interface PropsImg {
   imgUrl: any;
+  date: any;
+  text: any;
 }
